@@ -1,6 +1,5 @@
 from tkinter import *
 from pygame import mixer
-##import matplotlib
 root = Tk()
 
 mixer.init() #initializing the mixer
@@ -14,7 +13,7 @@ text.pack()
 
 
 def play_music():
-    mixer.music.load("F:\\tk project\\kinna_sona.mp3")
+    mixer.music.load("F:\\tk project\\sultan_title.mp3")
     mixer.music.play()
     print("Hey! This is play button ")
 
