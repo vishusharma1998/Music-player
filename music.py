@@ -17,9 +17,17 @@ def play_music():
     mixer.music.play()
     print("Hey! This is play button ")
 
+
+def stop_music():
+    mixer.music.play()
+
 playPhoto = PhotoImage(file='F:\\tk project\\002-play-button.png')
 playBtn = Button(root, image = playPhoto, command = play_music)
 playBtn.pack()
+
+stopPhoto = PhotoImage(file='F:\\tk project\\stop(1).png')
+stopBtn = Button(root, image = stopPhoto, command = stop_music)
+stopBtn.pack()
 
 root.mainloop()
 
